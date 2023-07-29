@@ -633,10 +633,8 @@ a {
 }
 /* ----------- Footer Subscribe block ------------- */
 
-.ftr-input-label {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.footer-subscribe-text {
+  margin-bottom: 16px;
   color: var(--whiteColor);
   font-weight: 500;
   line-height: 1.5;
