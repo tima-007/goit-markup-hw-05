@@ -806,7 +806,6 @@ a {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   width: 100%;
-  margin-bottom: 8px;
 }
 /* -------------- */
 .input-container {
@@ -814,28 +813,20 @@ a {
 }
 .input-svg-container {
   position: relative;
+  margin-bottom: 8px;
 }
 
-.input-username-svg {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 16px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.input-phone-svg {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 16px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.input-username-svg,
+.input-phone-svg,
 .input-mail-svg {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ {
 }
 
 input:focus-within + svg {
