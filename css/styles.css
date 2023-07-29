@@ -648,13 +648,17 @@ a {
 }
 
 .email-form-inptut {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
   color: var(--whiteColor);
   width: 264px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid var(--whiteColor);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: var(--navyBlueColor);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
   padding-left: 16px;
 }
 
@@ -669,8 +673,12 @@ a {
 .ftr-submit-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+
+  min-width: 165px;
   padding: 8px 24px;
-  gap: 16px;
+
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
@@ -689,6 +697,7 @@ a {
 
 .subscribe-btn-svg {
   fill: white;
+  margin-left: 16px;
 }
 
 /* --------------- Modal -------------------- */
@@ -712,6 +721,8 @@ a {
   left: 50%;
   width: 408px;
   min-height: 584px;
+
+  padding: 72px 24px 24px 24px;
 
   border-radius: 4px;
   background: var(--dairyColor);
@@ -760,7 +771,6 @@ a {
 /* --------------------- */
 
 .modal-content-container {
-  padding: 72px 24px 24px 24px;
   margin: 0 auto;
   width: inherit;
 }
