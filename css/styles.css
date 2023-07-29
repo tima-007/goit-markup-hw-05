@@ -771,14 +771,15 @@ a {
 
 /* --------------------- */
 
-.modal-content-container {
+.form-container {
+  margin-bottom: 8px;
 }
-.modal-form {
+
+/* .modal-form {
   display: flex;
   flex-direction: column;
+} */
 
-  gap: 8px;
-}
 .madal-text {
   color: var(--navyBlueColor);
   text-align: center;
@@ -792,14 +793,12 @@ a {
 .phone-label,
 .email-label,
 .modal-textarea-label {
-  display: flex;
-  flex-direction: column;
-
-  gap: 4px;
+  display: block;
   color: var(--lightslateColor);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 4px;
 }
 .input-username,
 .input-tel,
@@ -811,6 +810,7 @@ a {
   padding: 0 0 0 38px;
 
   width: 100%;
+  margin-bottom: 8px;
 }
 /* -------------- */
 .input-container {
