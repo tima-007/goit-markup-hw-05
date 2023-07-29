@@ -512,16 +512,17 @@
           </div>
 
           <div class="checkbox-container">
-            <label class="privat-policy" for="user-privacy">
-              <input
-                type="checkbox"
-                name="user-privacy"
-                id="user-privacy"
-                class="privat-policy-checkbox"
-              />
-              I accept the terms and conditions of the
-              <a href="" class="privacy-policy-link"> Privacy Policy</a>
-            </label>
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              class="user-privacy-checkbox visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="user-policy"
+              ><span class="user-policy-span"></span> I accept the terms and
+              conditions of the</label
+            >
           </div>
           <button type="submit" class="modal-send-btn">Send</button>
         </form>
