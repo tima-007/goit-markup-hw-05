@@ -808,7 +808,6 @@ a {
 }
 .input-svg-container {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .input-svg {
@@ -868,11 +867,6 @@ input:focus-within + svg {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-.user-privacy-checkbox:checked {
-  background-color: var(--oceanColor);
-  border: none;
-  fill: var(--cloudColor);
-}
 
 .user-policy-span {
   display: inline-flex;
@@ -883,16 +877,26 @@ input:focus-within + svg {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  margin-right: 8px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.privacy-checkbox:checked + .user-policy .user-policy-span {
+  background-color: var(--oceanColor);
+  border: none;
+  fill: var(--cloudColor);
+}
+
 .privacy-link {
   color: var(--irisColor);
   text-decoration: underline;
+  padding-left: 4px;
 }
+
+/*  */
 
 .modal-send-btn {
   display: block;
