@@ -868,8 +868,10 @@ input:focus-within + svg {
   letter-spacing: 0.04em;
 }
 
-.user-policy-span {
+.span-polycy-flex {
   display: inline-flex;
+}
+.user-policy-span {
   align-items: center;
   justify-content: center;
   fill: transparent;
